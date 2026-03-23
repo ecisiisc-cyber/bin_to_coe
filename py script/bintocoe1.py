@@ -29,4 +29,4 @@ def convert_bin_to_coe(bin_filename, coe_filename):
         print("Error: Could not find the input .bin file.")
 
 # Run the function (change these filenames to match yours!)
-convert_bin_to_coe("your_project_name.bin", "output_memory.coe")
+convert_bin_to_coe("logicgates.bin", "logicgates.coe")
