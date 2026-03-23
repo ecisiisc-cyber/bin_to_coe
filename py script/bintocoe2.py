@@ -39,4 +39,4 @@ def convert_bin_to_coe(bin_filename, coe_filename, word_width_bits):
 
 # --- SET YOUR SETTINGS HERE ---
 # If your BRAM reads 8 bits at a time, use 8. If 32 bits, use 32.
-convert_bin_to_coe("your_project_name.bin", "output_memory.coe", word_width_bits=8)
+convert_bin_to_coe("logicgates.bin", "logicgates_8.coe", word_width_bits=8)
