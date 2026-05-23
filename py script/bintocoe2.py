@@ -39,4 +39,4 @@ def convert_bin_to_coe(bin_filename, coe_filename, word_width_bits):
 
 # --- SET YOUR SETTINGS HERE ---
 # If your BRAM reads 8 bits at a time, use 8. If 32 bits, use 32.
-convert_bin_to_coe("spartan6_top_led.bin", "spartan6_top_led.coe", word_width_bits=8)
+convert_bin_to_coe("spartan6_top_led_dvs.bin", "spartan6_top_led_dvs.coe", word_width_bits=8)
